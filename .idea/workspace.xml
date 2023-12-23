@@ -4,25 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44f9e7ba-d15e-4ac2-8ac9-4eabb2b86c72" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Abonnement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Bibliotheque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/ClientFidele.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/CreditNegatifException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Details_Emprunts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/EmpruntInterdit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Lecteur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Livre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/LivrePolice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/LivreRomantique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/LivreSciencesFiction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled.iml" afterDir="false" />
+    <list default="true" id="44f9e7ba-d15e-4ac2-8ac9-4eabb2b86c72" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/src/sample/App/controller/livre/LivreAfficher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/App/controller/livre/LivreConsultation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/App/controller/livre/LivreCreation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/App/controller/livre/LivreUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/App/model/LivreCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/App/view/livre/LivreAfficher.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/App/view/livre/LivreConsultation.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/App/view/livre/LivreCreation.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/App/view/livre/LivreUpdate.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/images/minus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/images/nooo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/App/controller/InterfaceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/controller/InterfaceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/App/model/LivrePolice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/model/LivrePolice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/App/model/LivreRomantique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/model/LivreRomantique.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/App/model/LivreSciencesFiction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/model/LivreSciencesFiction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/App/view/lecteur/LecteurConsultation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/view/lecteur/LecteurConsultation.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/App/view/livre/Livre.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/App/view/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/view/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/close-window.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -45,7 +47,7 @@
 }</component>
   <component name="ProjectId" id="2ZqbDuxdXebwrxLdD2zU46uaIj4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -53,6 +55,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Ex2.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.TestDBConnection.executor": "Run",
@@ -62,7 +65,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "1.8",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/keranis/Ensit/2eme Génie Info/Java/BibApp/untitled/src/sample/App/model",
+    "last_opened_file_path": "/home/keranis/Ensit/2eme Génie Info/Java/BibApp/untitled/src/sample/App/view",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,7 +74,7 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "database.other",
+    "settings.editor.selected.configurable": "database.query.execution",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -86,11 +89,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/sample/App/model" />
       <recent name="$PROJECT_DIR$/src/sample/App/view" />
+      <recent name="$PROJECT_DIR$/src/sample/App/controller/livre" />
+      <recent name="$PROJECT_DIR$/src/sample/App/model" />
       <recent name="$PROJECT_DIR$/src/sample/App/controller" />
       <recent name="$PROJECT_DIR$/src/sample/App/controller/lecteurs" />
-      <recent name="$PROJECT_DIR$/src/sample/App/view/lecteur" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/sample/App/view/lecteur" />
@@ -105,7 +108,7 @@
       <recent name="Model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.test">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sample.App.Main" />
       <module name="untitled" />
@@ -147,8 +150,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.test" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.TestSwing" />
       </list>
     </recent_temporary>
@@ -163,17 +166,41 @@
       <updated>1703152441836</updated>
       <workItem from="1703152442884" duration="208000" />
       <workItem from="1703152692994" duration="32050000" />
-      <workItem from="1703192343630" duration="9241000" />
+      <workItem from="1703192343630" duration="9632000" />
+      <workItem from="1703265061721" duration="18738000" />
+      <workItem from="1703331828280" duration="23214000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1703202294784</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703202294784</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.RuntimeException" package="java.lang" />
+          <option name="timeStamp" value="5" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

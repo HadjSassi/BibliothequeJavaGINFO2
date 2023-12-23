@@ -4,6 +4,11 @@ public class LivreRomantique extends Livre{
     private String history;
     private String personnagePrincipal;
 
+    public LivreRomantique(Long codeUnique, String history, String personnagePrincipal) {
+        super(codeUnique,null,null,null);
+        this.history = history;
+        this.personnagePrincipal = personnagePrincipal;
+    }
     public LivreRomantique(String history, String personnagePrincipal) {
         this.history = history;
         this.personnagePrincipal = personnagePrincipal;

@@ -53,7 +53,7 @@ public class InterfaceController implements Initializable {
     @FXML
     void handleClicksLivre(ActionEvent event) {
         FxmlLoader object = new FxmlLoader();
-        AnchorPane view = object.getPane("lecteur/LecteurConsultation.fxml");
+        AnchorPane view = object.getPane("livre/LivreConsultation");
         view.setMaxSize(Double.MAX_VALUE,Double.MAX_VALUE);
         anchorpane3.getChildren().removeAll();
         anchorpane3.getChildren().setAll(view);
@@ -63,8 +63,8 @@ public class InterfaceController implements Initializable {
     void handleClicksLecteur(ActionEvent event) {
         FxmlLoader object = new FxmlLoader();
         Parent view = object.getPane("lecteur/LecteurConsultation");
-        anchorpane1.getChildren().removeAll();
-        anchorpane1.getChildren().setAll(view);
+        anchorpane3.getChildren().removeAll();
+        anchorpane3.getChildren().setAll(view);
     }
 
     @FXML

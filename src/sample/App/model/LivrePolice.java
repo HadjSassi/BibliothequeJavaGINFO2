@@ -6,6 +6,13 @@ public class LivrePolice extends Livre{
     private String detective;
     private String victime;
 
+    public LivrePolice(Long codeUnique, String descriptif, String detective, String victime) {
+        super(codeUnique,null,null,null);
+        this.descriptif = descriptif;
+        this.detective = detective;
+        this.victime = victime;
+    }
+
     public LivrePolice(String descriptif, String detective, String victime) {
         this.descriptif = descriptif;
         this.detective = detective;

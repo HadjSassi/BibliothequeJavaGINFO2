@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="794.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.App.controller.lecteurs.LecteurConsultation">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="794.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.App.controller.livre.LivreConsultation">
     <children>
         <AnchorPane prefHeight="576.0" prefWidth="794.0" style="-fx-background-color: linear-gradient(to right bottom, #000000, #090909, #111111, #161616, #1b1b1b, #212026, #272631, #2c2c3c, #303552, #304069, #274b82, #01579b) linear-gradient(to right bottom, #000000, #090909, #111111, #161616, #1b1b1b, #212026, #272631, #2c2c3c, #303552, #304069, #274b82, #01579b);" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
             <children>
@@ -14,11 +14,11 @@
                         <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
                     </columnResizePolicy>
                     <columns>
-                  <TableColumn fx:id="fidelCol" maxWidth="1400.0" prefWidth="140.0" style="-fx-alignement: center;" text="Fidele" />
-                        <TableColumn fx:id="cinCol" maxWidth="1400.0" prefWidth="101.0" style="-fx-alignement: center;" text="CIN" />
-                        <TableColumn fx:id="nomCol" maxWidth="1000.0" prefWidth="201.0" style="-fx-alignement: center;" text="Nom" />
-                        <TableColumn fx:id="prenomCol" maxWidth="500.0" prefWidth="97.0" style="-fx-alignement: center;" text="Prenom" />
-                        <TableColumn fx:id="creditCol" maxWidth="1000.0" prefWidth="97.0" style="-fx-alignement: center;" text="Credit" />
+                  <TableColumn fx:id="typeCol" maxWidth="1400.0" prefWidth="140.0" style="-fx-alignement: center;" text="Type" />
+                        <TableColumn fx:id="isbnCol" maxWidth="1400.0" prefWidth="101.0" style="-fx-alignement: center;" text="ISBN" />
+                        <TableColumn fx:id="titreCol" maxWidth="1000.0" prefWidth="201.0" style="-fx-alignement: center;" text="Titre" />
+                        <TableColumn fx:id="auteurCol" maxWidth="500.0" prefWidth="97.0" style="-fx-alignement: center;" text="Auteur" />
+                        <TableColumn fx:id="nbLivreCol" maxWidth="1000.0" prefWidth="97.0" style="-fx-alignement: center;" text="Nb Livre" />
                         <TableColumn fx:id="modifierCol" maxWidth="600.0" prefWidth="355.0" style="-fx-alignement: center;" text="Modifier" />
                     </columns>
                 </TableView>
@@ -28,7 +28,7 @@
                         <Image url="@../../../images/icons8_Search_52px.png" />
                     </image>
                 </ImageView>
-                <Label layoutX="24.0" layoutY="28.0" prefHeight="44.0" prefWidth="305.0" text="Gestion des Lecteurs" textFill="#f2f0f0">
+                <Label layoutX="24.0" layoutY="28.0" prefHeight="44.0" prefWidth="305.0" text="Gestion des Livres" textFill="#f2f0f0">
                     <font>
                         <Font size="28.0" />
                     </font>
@@ -66,32 +66,32 @@
          <children>
             <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
                <children>
-                  <Label fx:id="labelNbLecteurs" text="0" textFill="#2a73ff">
+                  <Label fx:id="nbPolicierLbl" text="0" textFill="#2a73ff">
                      <font>
                         <Font name="System Bold" size="26.0" />
                      </font>
                   </Label>
-                  <Label prefHeight="35.0" prefWidth="100.0" text="Nombres des Lecteurs" textAlignment="CENTER" textFill="#e7e5e5" wrapText="true" />
+                  <Label prefHeight="35.0" prefWidth="100.0" text="Nb De Livre Policiers" textAlignment="CENTER" textFill="#e7e5e5" wrapText="true" />
                </children>
             </VBox>
             <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
                <children>
-                  <Label fx:id="labelNbClientFidele" text="0" textFill="#4caf50">
+                  <Label fx:id="nbScFictionLbl" text="0" textFill="#4caf50">
                      <font>
                         <Font name="System Bold" size="26.0" />
                      </font>
                   </Label>
-                  <Label text="Clients Fidéle" textAlignment="CENTER" textFill="#e7e5e5" wrapText="true" />
+                  <Label text="Nb De Livre Sc Fictions" textAlignment="CENTER" textFill="#e7e5e5" wrapText="true" />
                </children>
             </VBox>
             <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
                <children>
-                  <Label fx:id="labelNbAbonnementEpuises" text="0" textFill="#fb3232">
+                  <Label fx:id="nbRomantiqueLbl" text="0" textFill="#fb3232">
                      <font>
                         <Font name="System Bold" size="26.0" />
                      </font>
                   </Label>
-                  <Label text="Abonnement eppuisés" textAlignment="CENTER" textFill="#e7e5e5" wrapText="true" />
+                  <Label text="Nb De Livre Romantique" textAlignment="CENTER" textFill="#e7e5e5" wrapText="true" />
                </children>
             </VBox>
          </children>

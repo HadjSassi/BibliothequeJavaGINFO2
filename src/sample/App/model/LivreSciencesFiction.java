@@ -4,6 +4,12 @@ public class LivreSciencesFiction extends Livre{
     private int annee;
     private String espace;
 
+    public LivreSciencesFiction(Long codeUnique, int annee, String espace) {
+        super(codeUnique,null,null,null);
+        this.annee = annee;
+        this.espace = espace;
+    }
+
     public LivreSciencesFiction(int annee, String espace) {
         this.annee = annee;
         this.espace = espace;
