@@ -205,7 +205,7 @@ public class Main extends Application {
                     primaryStage.setY(event.getScreenY() - y);
                 }
             });
-        primaryStage.getIcons().add((new Image( getClass().getResource("../images/municipalite-tunis.png").toURI().toString())));
+        primaryStage.getIcons().add((new Image( getClass().getResource("../images/0mahdi.png").toURI().toString())));
         primaryStage.show();
         scene.setFill(Color.TRANSPARENT);
     }

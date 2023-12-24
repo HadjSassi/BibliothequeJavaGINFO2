@@ -4,27 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44f9e7ba-d15e-4ac2-8ac9-4eabb2b86c72" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/src/sample/App/controller/livre/LivreAfficher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/App/controller/livre/LivreConsultation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/App/controller/livre/LivreCreation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/App/controller/livre/LivreUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/App/model/LivreCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/App/view/livre/LivreAfficher.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/App/view/livre/LivreConsultation.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/App/view/livre/LivreCreation.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/App/view/livre/LivreUpdate.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/images/minus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/images/nooo.png" afterDir="false" />
+    <list default="true" id="44f9e7ba-d15e-4ac2-8ac9-4eabb2b86c72" name="Changes" comment="livre">
+      <change afterPath="$PROJECT_DIR$/src/sample/images/000mahdi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/images/00mahdi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/images/0mahdi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/images/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/images/books.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/images/echange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/images/emprunt.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/App/controller/InterfaceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/controller/InterfaceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/App/model/LivrePolice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/model/LivrePolice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/App/model/LivreRomantique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/model/LivreRomantique.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/App/model/LivreSciencesFiction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/model/LivreSciencesFiction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/App/view/lecteur/LecteurConsultation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/view/lecteur/LecteurConsultation.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/App/view/livre/Livre.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/App/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/App/controller/AccueilController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/controller/AccueilController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/App/controller/BorderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/controller/BorderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/App/controller/LivreController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/App/view/Accueil.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/view/Accueil.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/App/view/Boarder.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/view/Boarder.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/App/view/Interface.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/view/Interface.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/App/view/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/view/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/images/close-window.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/1municipalité-tunisie-640x411.jpg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/Municipalite_de_Tunis-Kassus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/home2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/images/home2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/inter.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/images/inter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/mairie-tunis_0805.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/municipalite-tunis-afrique.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/municipalite-tunis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/municipalite_nabeul_1556619001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/municipalité-tunisie-640x411.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,36 +65,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Ex2.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.TestDBConnection.executor": "Run",
-    "Application.TestSwing.executor": "Run",
-    "Application.test.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/keranis/Ensit/2eme Génie Info/Java/BibApp/untitled/src/sample/App/view",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "database.query.execution",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Ex2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestDBConnection.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestSwing.executor&quot;: &quot;Run&quot;,
+    &quot;Application.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/keranis/Ensit/2eme Génie Info/Java/BibApp/untitled/src/sample/App/view&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;database.query.execution&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="controller" />
@@ -168,7 +180,8 @@
       <workItem from="1703152692994" duration="32050000" />
       <workItem from="1703192343630" duration="9632000" />
       <workItem from="1703265061721" duration="18738000" />
-      <workItem from="1703331828280" duration="23214000" />
+      <workItem from="1703331828280" duration="23422000" />
+      <workItem from="1703412484772" duration="6154000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -178,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703202294784</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="livre">
+      <option name="closed" value="true" />
+      <created>1703372614168</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703372614168</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +211,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="livre" />
+    <option name="LAST_COMMIT_MESSAGE" value="livre" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -24,11 +24,13 @@ public class AccueilController implements Initializable {
     //ImageView imageView;
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-            list.add("sample/images/municipalité-tunisie-640x411.jpg");
-            list.add("sample/images/Municipalite_de_Tunis-Kassus.jpg");
-            list.add("sample/images/mairie-tunis_0805.jpg");
-        list.add("sample/images/municipalite_nabeul_1556619001.jpg");
-        list.add("sample/images/municipalite-tunis-afrique.jpg");
+            list.add("sample/images/1.jpg");
+            list.add("sample/images/2.jpg");
+            list.add("sample/images/3.jpg");
+            list.add("sample/images/4.jpg");
+            list.add("sample/images/5.jpg");
+            list.add("sample/images/6.jpg");
+            list.add("sample/images/7.jpg");
 
 
 
