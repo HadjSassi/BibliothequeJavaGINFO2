@@ -4,44 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44f9e7ba-d15e-4ac2-8ac9-4eabb2b86c72" name="Changes" comment="design">
-      <change afterPath="$PROJECT_DIR$/src/sample/App/controller/emprunt/EmpruntConsultation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/App/controller/emprunt/Emprunter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/App/controller/emprunt/Restituer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/App/model/LecteurNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/App/model/LivreEmpruntedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/App/model/LivreNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/App/view/emprunt/EmpruntConsultation.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/App/view/emprunt/Emprunter.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/App/view/emprunt/Restituer.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/images/Emprunter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/images/emp.png" afterDir="false" />
+    <list default="true" id="44f9e7ba-d15e-4ac2-8ac9-4eabb2b86c72" name="Changes" comment="emprunt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/App/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/App/controller/AccueilController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/controller/AccueilController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/App/controller/BorderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/controller/BorderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/App/controller/InterfaceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/controller/InterfaceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/App/controller/lecteurs/LecteurAfficher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/controller/lecteurs/LecteurAfficher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/App/controller/lecteurs/LecteurConsultation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/controller/lecteurs/LecteurConsultation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/App/controller/lecteurs/LecteurCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/controller/lecteurs/LecteurCreation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/App/controller/lecteurs/LecteurUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/controller/lecteurs/LecteurUpdate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/App/controller/livre/LivreAfficher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/controller/livre/LivreAfficher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/App/controller/livre/LivreConsultation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/controller/livre/LivreConsultation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/App/controller/livre/LivreCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/controller/livre/LivreCreation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/App/controller/livre/LivreUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/controller/livre/LivreUpdate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/App/model/Details_Emprunts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/model/Details_Emprunts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/App/model/EmpruntInterdit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/model/EmpruntInterdit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/App/model/Lecteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/model/Lecteur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/App/view/Accueil.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/view/Accueil.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/App/view/Boarder.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/view/Boarder.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/App/view/Interface.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/view/Interface.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/App/view/lecteur/LecteurAfficher.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/view/lecteur/LecteurAfficher.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/App/view/lecteur/LecteurCreation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/view/lecteur/LecteurCreation.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/App/view/lecteur/LecteurUpdate.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/view/lecteur/LecteurUpdate.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/App/view/livre/LivreAfficher.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/view/livre/LivreAfficher.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/App/view/livre/LivreCreation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/view/livre/LivreCreation.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/App/view/livre/LivreUpdate.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/view/livre/LivreUpdate.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/App/view/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/view/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/App/model/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App/model/Type.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +160,7 @@
       <workItem from="1703265061721" duration="18738000" />
       <workItem from="1703331828280" duration="23422000" />
       <workItem from="1703412484772" duration="7083000" />
-      <workItem from="1703625162425" duration="12348000" />
+      <workItem from="1703625162425" duration="12982000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -221,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703444574708</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="emprunt">
+      <option name="closed" value="true" />
+      <created>1703637734010</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703637734010</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +208,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="livre" />
     <MESSAGE value="design" />
-    <option name="LAST_COMMIT_MESSAGE" value="design" />
+    <MESSAGE value="emprunt" />
+    <option name="LAST_COMMIT_MESSAGE" value="emprunt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
