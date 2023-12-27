@@ -282,10 +282,28 @@ public class LivreUpdate implements Initializable {
                         Stage stage = (Stage) buttonConfirmer.getScene().getWindow();
                         stage.close();
                     } catch (NumberFormatException e) {
-
+                        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+                        alert.initStyle(StageStyle.TRANSPARENT);
+                        alert.setHeaderText(null);
+                        alert.setContentText("Il y'a un probléme rencontré!\n" + e);
+                        try {
+                            alert.setGraphic(new ImageView(getClass().getResource("../../../images/close-window-64.png").toURI().toString()));
+                        } catch (URISyntaxException ex) {
+                            throw new RuntimeException(ex);
+                        }
+                        alert.showAndWait();
                     }
                 } catch (SQLException | URISyntaxException throwables) {
-                    throwables.printStackTrace();
+                    Alert alert = new Alert(Alert.AlertType.INFORMATION);
+                    alert.initStyle(StageStyle.TRANSPARENT);
+                    alert.setHeaderText(null);
+                    alert.setContentText("Il y'a un probléme rencontré!\n" + throwables);
+                    try {
+                        alert.setGraphic(new ImageView(getClass().getResource("../../../images/close-window-64.png").toURI().toString()));
+                    } catch (URISyntaxException ex) {
+                        throw new RuntimeException(ex);
+                    }
+                    alert.showAndWait();
                 }
 
             }
@@ -353,10 +371,28 @@ public class LivreUpdate implements Initializable {
                         statement.close();
 
                     } catch (NumberFormatException e) {
-
+                        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+                        alert.initStyle(StageStyle.TRANSPARENT);
+                        alert.setHeaderText(null);
+                        alert.setContentText("Il y'a un probléme rencontré!\n" + e);
+                        try {
+                            alert.setGraphic(new ImageView(getClass().getResource("../../../images/close-window-64.png").toURI().toString()));
+                        } catch (URISyntaxException ex) {
+                            throw new RuntimeException(ex);
+                        }
+                        alert.showAndWait();
                     }
                 } catch (SQLException throwables) {
-                    throwables.printStackTrace();
+                    Alert alert = new Alert(Alert.AlertType.INFORMATION);
+                    alert.initStyle(StageStyle.TRANSPARENT);
+                    alert.setHeaderText(null);
+                    alert.setContentText("Il y'a un probléme rencontré!\n" + throwables);
+                    try {
+                        alert.setGraphic(new ImageView(getClass().getResource("../../../images/close-window-64.png").toURI().toString()));
+                    } catch (URISyntaxException ex) {
+                        throw new RuntimeException(ex);
+                    }
+                    alert.showAndWait();
                 }
             }
             Alert alert = new Alert(Alert.AlertType.INFORMATION);

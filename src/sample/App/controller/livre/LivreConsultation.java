@@ -32,9 +32,11 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.ResourceBundle;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.util.stream.Collectors;
 
 import static sample.mysql_connection.MySqlConnection.getOracleConnection;
 
@@ -150,31 +152,26 @@ public class LivreConsultation implements Initializable {
 
 
     private void filter() {
-        FilteredList<LivreCount> filteredData = new FilteredList<>(oblist, b -> true);
-
         filterField.textProperty().addListener((observable, oldValue, newValue) -> {
-            filteredData.setPredicate(Livre -> {
+            List<LivreCount> filteredList = oblist.stream()
+                    .filter(livre -> {
+                        if (newValue == null || newValue.isEmpty()) {
+                            return true;
+                        }
+                        String lowerCaseFilter = newValue.toLowerCase();
+                        return livre.getAuteur().toLowerCase().contains(lowerCaseFilter) ||
+                                livre.getTitre().toLowerCase().contains(lowerCaseFilter) ||
+                                livre.getCodeUnique().toString().toLowerCase().contains(lowerCaseFilter) ||
+                                livre.getISBN().toString().toLowerCase().contains(lowerCaseFilter);
+                    })
+                    .collect(Collectors.toList());
 
-                if (newValue == null || newValue.isEmpty()) {
-                    return true;
-                }
-
-                String lowerCaseFilter = newValue.toLowerCase();
-
-                if (Livre.getAuteur().toLowerCase().contains(lowerCaseFilter)) {
-                    return true;//filter cin
-                } else if (Livre.getTitre().toLowerCase().contains(lowerCaseFilter)) {
-                    return true;//filter nom
-                } else if (Livre.getCodeUnique().toString().toLowerCase().contains(lowerCaseFilter)) {
-                    return true;//filter nom
-                } else return Livre.getISBN().toString().toLowerCase().contains(lowerCaseFilter);
-            });
+            SortedList<LivreCount> sortedData = new SortedList<>(FXCollections.observableArrayList(filteredList));
+            sortedData.comparatorProperty().bind(tableView.comparatorProperty());
+            tableView.setItems(sortedData);
         });
-        SortedList<LivreCount> sortedData = new SortedList<>(filteredData);
-
-        sortedData.comparatorProperty().bind(tableView.comparatorProperty());
-        tableView.setItems(sortedData);
     }
+
 
 
     private void initTable() {
@@ -385,7 +382,16 @@ public class LivreConsultation implements Initializable {
 
 
         } catch (SQLException throwables) {
-            throwables.printStackTrace();
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.initStyle(StageStyle.TRANSPARENT);
+            alert.setHeaderText(null);
+            alert.setContentText("Il y'a un probléme rencontré!\n" + throwables);
+            try {
+                alert.setGraphic(new ImageView(getClass().getResource("../../../images/close-window-64.png").toURI().toString()));
+            } catch (URISyntaxException ex) {
+                throw new RuntimeException(ex);
+            }
+            alert.showAndWait();
         }
 
         tableView.setItems(oblist);

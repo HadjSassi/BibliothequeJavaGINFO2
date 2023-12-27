@@ -13,10 +13,15 @@ public class Lecteur implements Comparable {
     private Abonnement abonnement;
 
     public Lecteur() {
-        Scanner sc= new Scanner(System.in);
+        /*Scanner sc= new Scanner(System.in);
         this.nom = sc.next();
         this.prenom = sc.next();
-        this.cin = Long.valueOf(sc.next());
+        this.cin = Long.valueOf(sc.next());*/
+        this.nom="";
+        this.prenom= "";
+        this.credit=0;
+        this.cin=0L;
+        this.abonnement = null;
     }
 
     public Lecteur(int cin) {

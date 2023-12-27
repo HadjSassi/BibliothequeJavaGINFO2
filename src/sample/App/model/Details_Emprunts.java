@@ -7,35 +7,35 @@ public class Details_Emprunts {
     private int idDetail;
     private Livre livre;
     private LocalDate dateEmrpunt;
-    private LocalDate dateRetour;
+    private boolean returned;
 
 
     public Details_Emprunts(Livre livre) {
         this.idDetail = 0;
         this.livre = livre;
         this.dateEmrpunt = LocalDate.now();
-        this.dateRetour = LocalDate.now().plusDays(7);
+        this.returned = false;
     }
 
     public Details_Emprunts(Livre livre, LocalDate dateEmrpunt) {
         this.idDetail = 0 ;
         this.livre = livre;
         this.dateEmrpunt = dateEmrpunt;
-        this.dateRetour = dateEmrpunt.plusDays(7);
+        this.returned = false;
     }
 
     public Details_Emprunts(int idDetail, Livre livre) {
         this.idDetail = idDetail;
         this.livre = livre;
         this.dateEmrpunt = LocalDate.now();
-        this.dateRetour = LocalDate.now().plusDays(7);
+        this.returned = false;
     }
 
     public Details_Emprunts(int idDetail, Livre livre, LocalDate dateEmrpunt) {
         this.idDetail = idDetail ;
         this.livre = livre;
         this.dateEmrpunt = dateEmrpunt;
-        this.dateRetour = dateEmrpunt.plusDays(7);
+        this.returned = false;
     }
 
     public int getIdDetail() {
@@ -62,21 +62,25 @@ public class Details_Emprunts {
         this.dateEmrpunt = dateEmrpunt;
     }
 
-    public LocalDate getDateRetour() {
-        return dateRetour;
+    public boolean getReturned() {
+        return returned;
     }
 
-    public void setDateRetour(LocalDate dateRetour) {
-        this.dateRetour = dateRetour;
+    public void setReturned(boolean returned) {
+        this.returned = returned;
     }
 
+    public LocalDate getDateRetour(){
+        return this.dateEmrpunt.plusWeeks(1);
+    }
     @Override
     public String toString() {
         return "Details_Emprunts{" +
                 "idDetail=" + idDetail +
                 ", livre=" + livre +
                 ", dateEmrpunt=" + dateEmrpunt +
-                ", dateRetour=" + dateRetour +
+                ", dateRetour=" + getDateRetour() +
+                ", returned=" + returned +
                 '}';
     }
 }

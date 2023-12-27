@@ -139,7 +139,7 @@ public class Main extends Application {
 
                 //table detailsEmprunts (idDetail,codeunique, dateEmprunt, dateRetour)
 
-                query = "create table DetailsEmprunts(idDetail int auto_increment primary key, codeunique int, dateEmprunt date, dateRetour date);";
+                query = "create table DetailsEmprunts(idDetail int auto_increment primary key, codeunique int, dateEmprunt date, returned bool);";
 
                 try (Connection connection = getOracleConnection();
                      Statement statement = connection.createStatement()) {

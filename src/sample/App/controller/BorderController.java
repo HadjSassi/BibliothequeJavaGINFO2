@@ -27,7 +27,6 @@ public class BorderController implements Initializable {
     @FXML
     void handleClicksMaximize(ActionEvent event) {
         stage = (Stage) all.getScene().getWindow();
-        System.out.println(stage.isMaximized());
         stage.setMaximized(!stage.isMaximized());
     }
     @FXML

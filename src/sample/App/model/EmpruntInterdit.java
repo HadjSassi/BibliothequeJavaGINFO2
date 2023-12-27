@@ -1,7 +1,7 @@
 package sample.App.model;
 
 public class EmpruntInterdit extends Exception{
-    EmpruntInterdit(){
+    public EmpruntInterdit(){
         super("abonnement est epuisé");
     }
 }

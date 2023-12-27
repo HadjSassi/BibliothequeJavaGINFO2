@@ -34,7 +34,6 @@ public class AccueilController implements Initializable {
 
 
 
-            //imageview.setImage(new Image("sample/images/municipalité-tunisie-640x411.jpg"));
             Image images[] = new Image[list.size()];
             for (int i = 0; i <list.size(); i++) {
                 images[i] = new Image(list.get(i));

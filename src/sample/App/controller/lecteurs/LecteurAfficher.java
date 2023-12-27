@@ -2,14 +2,18 @@ package sample.App.controller.lecteurs;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 import sample.App.model.Abonnement;
 import sample.App.model.ClientFidele;
 import sample.App.model.CreditNegatifException;
 import sample.App.model.Lecteur;
 
+import java.net.URISyntaxException;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -151,7 +155,16 @@ public class LecteurAfficher {
                 }
 
             } catch (SQLException| CreditNegatifException e ) {
-                e.printStackTrace();
+                Alert alert = new Alert(Alert.AlertType.INFORMATION);
+                alert.initStyle(StageStyle.TRANSPARENT);
+                alert.setHeaderText(null);
+                alert.setContentText("Il y'a un probléme rencontré!\n" + e);
+                try {
+                    alert.setGraphic(new ImageView(getClass().getResource("../../../images/close-window-64.png").toURI().toString()));
+                } catch (URISyntaxException ex) {
+                    throw new RuntimeException(ex);
+                }
+                alert.showAndWait();
             }
         }
 
